@@ -9,9 +9,9 @@ const Home = () => {
       <SectionContainer>
         <About />
       </SectionContainer>
-      <SectionContainer>
+      {/* <SectionContainer>
         <Contact />
-      </SectionContainer>
+      </SectionContainer> */}
     </>
   );
 };

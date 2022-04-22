@@ -7,6 +7,6 @@ export const Container = styled.div`
 `;
 
 export const Photo = styled.img`
-  max-width: 100%;
+  width: clamp(6.25rem, calc(5.45rem + 4.57vw), 10.94rem);
   object-fit: contain;
 `;
