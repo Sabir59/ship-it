@@ -33,7 +33,6 @@ export const Location = styled.h5`
   font-size: clamp(0.94rem, calc(0.8rem + 0.79vw), 1.75rem);
   line-height: 116%;
   color: #434449;
-  max-width: clamp(12.5rem, calc(10.24rem + 12.93vw), 25.75rem);
   margin-bottom: clamp(1.25rem, calc(0.74rem + 2.93vw), 4.25rem);
 `;
 

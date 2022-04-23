@@ -20,7 +20,8 @@ export const Contact = () => {
           <Heading>Drop us your Query</Heading>
           <Box>
             <Location>
-              Islamabad, Territory, 26 Street E-11 / 4 Punjab Pakistan
+              Islamabad, Territory,
+              <br /> 26 Street E-11 / 4 <br /> Punjab Pakistan
             </Location>
             <Form>
               <Input placeholder='Name' />
