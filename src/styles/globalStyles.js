@@ -19,7 +19,10 @@ body {
 
 export const MainContainer = styled.div`
   max-width: 1920px;
-  padding: 30px 170px 30px 300px;
+  padding: clamp(1.25rem, calc(1.14rem + 0.61vw), 1.88rem)
+    clamp(1.25rem, calc(-0.35rem + 9.15vw), 10.63rem)
+    clamp(1.25rem, calc(1.14rem + 0.61vw), 1.88rem)
+    clamp(1.25rem, calc(-1.74rem + 17.07vw), 18.75rem);
   margin: 0 auto;
   background: ${(props) => (props.bg ? props.bg : "#fff")};
 `;

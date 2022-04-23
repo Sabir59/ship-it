@@ -1,16 +1,9 @@
 import styled from "styled-components/macro";
 
 export const Container = styled.header`
-  // min-height: 100vh;
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
   padding: clamp(1.25rem, calc(1.14rem + 0.61vw), 1.88rem)
     clamp(1.25rem, calc(-0.35rem + 9.15vw), 10.63rem);
   background: #1e1ac9;
-  // @media (max-width: 1024px) {
-  //   min-height: auto;
-  // }
 `;
 
 export const Navbar = styled.nav`
